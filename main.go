@@ -15,7 +15,7 @@ func main() {
 			"data":   ComputeData(2, 3),
 		})
 	})
-	err := router.Run(":8080")
+	err := router.Run()
 	if err != nil {
 		panic(err)
 	}
